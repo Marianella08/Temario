@@ -1,0 +1,67 @@
+body{
+background-color: #dae4e7;
+display: flex;
+justify-content: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+height: 97vh;
+font-size:medium;
+}
+
+.main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.temario{
+width: 500px;
+height: auto;
+}
+
+.titulo{
+    border-bottom: 2px solid #252525;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tema{
+    border-bottom: 1px solid #b1b1b1;
+    height: 40px;
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.tema:hover{
+    border: 1px solid #b1b1b1;
+}
+
+.Icon{
+    width: 25px;
+    height: 25px;
+}
+
+.IconHover{
+    width: 18px;
+    height: 18px;
+    opacity: 0;
+}
+
+.tema:hover .IconHover{
+    opacity: 100;
+}
+
+.nombreTema{
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+.FechaDePublicacion{
+    font-size: small;
+    font-weight: lighter;
+}
